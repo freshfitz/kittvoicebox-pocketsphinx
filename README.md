@@ -28,10 +28,14 @@ python3 kitt.py to run
 You will need the html5 voice recorder to upload the instructions .wav file. I installed mine in /var/www/html.
 Apache and modssl has to be installed. html5 voice recorder has to work on https://
 
-I use sox to convert the .wav file toa 16000 sample rate.
+I use sox to convert the .wav file to a 16000 sample rate.
+
 To test the file you can use pocketsphinx_continuous -infile transcribe_export.wav
+
 manual conver sox transcribe.wav -r 16000 transcribe_new.wav
 
+
 keyword.list is the keywords you want to search for in the instructional wav file, edit that file to pick out keywords, then open input.txt and match that keyword to an mp3.
+
 
 So for example if I speak "Kitt where is bonnie" into the html5 recorder. It finds bonnie in keyword.list then matches that in input.txt then plays the bonnie.mp3 file.

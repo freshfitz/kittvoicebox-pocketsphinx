@@ -22,6 +22,7 @@ sudo pip3 install pocketsphinx
 sudo pip3 install pydub
 
 once done clone to /home/pi/kitt
+
 python3 kitt.py to run
 
 You will need the html5 voice recorder to upload the instructions .wav file. I installed mine in /var/www/html.

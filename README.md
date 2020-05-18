@@ -5,13 +5,20 @@ kitts voicebox controller for offline use. Speach to txt uses the pocketsphinx l
 You will have to install pocketsphinx on the pi
 
 sudo apt-get update --yes
+
 sudo apt-get install portaudio19-dev swig --yes
+
 sudo apt-get install -y python python-dev python-pip build-essential swig git libpulse-dev --yes
+
 sudo apt-get install libpulse-dev --yes
+
 sudo apt-get install sox --yes
+
 sudo apt-get install pocketsphinx --yes
 
+
 sudo pip3 install pocketsphinx
+
 sudo pip3 install pydub
 
 once done clone to /home/pi/kitt

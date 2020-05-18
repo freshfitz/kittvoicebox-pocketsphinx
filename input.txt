@@ -1,0 +1,10 @@
+bonnie : bonnie.mp3
+kitt activate scanner: fx-scanner.mp3
+serial : serial.mp3
+theme : KnightRider_theme.mp3
+cereal : serial.mp3
+who : serial.mp3
+morning : good_morning.mp3
+candy : fx-scanner.mp3
+scan : fx-scanner.mp3
+skinny : fx-scanner.mp3

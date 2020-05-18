@@ -39,3 +39,7 @@ keyword.list is the keywords you want to search for in the instructional wav fil
 
 
 So for example if I speak "Kitt where is bonnie" into the html5 recorder. It finds bonnie in keyword.list then matches that in input.txt then plays the bonnie.mp3 file.
+
+You'll have to play around with your speach and use the terminal to see what pocketsphinx is spitting out. For example if I say "Kitt what is your serial number" Voice translation usually picks up "cereal" not "serial"  so I have to add ceral as one of my keywords to play the mp3 serial.mp3
+
+use pocketsphinx_continuous -infile transcribe_export.wav" to see what the full translation is on the wav file

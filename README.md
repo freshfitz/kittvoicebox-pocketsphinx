@@ -30,9 +30,9 @@ Apache and modssl has to be installed. html5 voice recorder has to work on https
 
 I use sox to convert the .wav file to a 16000 sample rate.
 
-To test the file you can use pocketsphinx_continuous -infile transcribe_export.wav
+To test the file you can use "pocketsphinx_continuous -infile transcribe_export.wav"
 
-manual conver sox transcribe.wav -r 16000 transcribe_new.wav
+to manual convert "sox transcribe.wav -r 16000 transcribe_new.wav"
 
 
 keyword.list is the keywords you want to search for in the instructional wav file, edit that file to pick out keywords, then open input.txt and match that keyword to an mp3.
